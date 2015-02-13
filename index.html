@@ -4,7 +4,6 @@
         <meta charset="utf-8" />
         <title>Socket.io</title>
     </head>
- 
     <body>
         <h1>chat</h1>
 
@@ -18,7 +17,7 @@
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
         <script src="/socket.io/socket.io.js"></script>
         <script type="text/javascript">
-            var socket = io.connect('http://localhost:8080');
+            var socket = io.connect();
 
             // On demande le pseudo au visiteur...
             var pseudo = prompt('Quel est votre pseudo ?');
